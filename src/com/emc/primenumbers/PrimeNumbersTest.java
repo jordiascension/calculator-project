@@ -21,7 +21,7 @@ class PrimeNumbersTest {
 		numbers[3] = 18;
 
 		ArrayList<Integer> primeArray = primeNumbers
-				.SearchPrimeNumbers(numbers);
+				.searchPrimeNumbers(numbers);
 
 		ArrayList<Integer> primeArrayExpected = new ArrayList<Integer>();
 		primeArrayExpected.add(17);

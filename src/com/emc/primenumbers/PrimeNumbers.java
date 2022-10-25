@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PrimeNumbers {
 
-	public ArrayList<Integer> SearchPrimeNumbers(int[] numbers) {
+	public ArrayList<Integer> searchPrimeNumbers(int[] numbers) {
 		ArrayList<Integer> primeNumbers = new ArrayList<Integer>();
 
 		for (int i = 0; i < numbers.length; i++) {
